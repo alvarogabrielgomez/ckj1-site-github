@@ -1,2 +1,2 @@
-# invie
-Las guitarras más locas
+# Ckj.One
+Bienvenidos mi portafolio, espero les guste.

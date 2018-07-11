@@ -720,15 +720,33 @@ top: -22px;
 .contenedor-Design-and-Dev{
 	width:100%;
 }
-
+.boton-juego{
+	margin: 20px 11px;
+}
+.button {
+    background-color: #22BA6A;
+    border: none;
+    color: white;
+    padding: 16px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		box-sizing: border-box;
+}
 
 #contenedor-dev{
 	width: 100%;
 	margin:auto;
 	max-width: 1083px;
-	height: 300px;
+	height: 358px;
 
 	padding-top: 41px;
+}
+
+.contenedor-caja01{
+	width: 95%;
+	margin: auto;
 }
 
 .caja01{
@@ -776,7 +794,7 @@ color: #959595;
 }
 
 
-a.caja01:hover{
+.caja01:hover{
 background-color: #e3e3e3;
 border-color:#00FFFF;
 -webkit-transition: all 0.6s ease;
@@ -785,6 +803,8 @@ border-color:#00FFFF;
 
 .img-caja01{
 	background-color: #787878;
+	background-image: url(img/game.png);
+	background-size: cover;
 	height: 107.4%;
 	width: 68%;
 	float: right;

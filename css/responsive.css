@@ -1,4 +1,4 @@
-@media (min-width: 801px) and (max-width: 1045px) {
+@media (min-width: 800px) and (max-width: 1045px) {
 
     #contenedor-header {margin-left:0!important;}
     header nav{padding: 0px 5% 0px 5%!important;}
@@ -17,6 +17,20 @@
     .contenedor-cajita{
         max-width: 886px;
     }
+
+    .caja01{
+      padding-right: 10px;
+      margin:0px;
+    }
+    .img-caja01{
+      width: 63.562%;
+      background-position: -109px 9px;
+
+    }
+    .caja01-info{
+      width: 32%;
+    }
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
@@ -29,6 +43,42 @@ position:relative;
 .cajita-cajita span.cajita-info{
 font-size: 14px;
 }
+
+.contenedor-informacion{
+  position: absolute;
+  width: 275px;
+  height: 268px;
+  margin-left:calc(50% - 162px) !important;
+  background-color:rgba(214, 214, 214, 0.17);
+  padding: 25px;
+  box-sizing: border-box;
+
+}
+.caja01{
+  padding-right: 10px;
+  margin:0px;
+}
+.img-caja01{
+  width: 102.79%;
+  background-position: -25px 21px;
+  float: right;
+}
+.caja01-info{
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 0px!important;
+    margin-top: 2em!important;
+    color:#cdcdcd!important;
+}
+.caja01-name{
+  width: 237px;
+  padding: 0px!important;
+  margin: 0.5em 0 0 0!important;
+  color:#cdcdcd!important;
+}
+
+
+
 .cajita-cajita{
     height: 420px;
 width: 100%;

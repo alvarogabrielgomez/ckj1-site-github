@@ -12,9 +12,14 @@ function rungame(){
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
+<body style="background-color:#000;">
 
-<a class="boton-juego button" onClick="rungame()"  href="#main">Jugar</a><br>
-<a class="boton-juego button" href="../index.html">Volver</a>
+
+<div class="botones-de-control" style="float:left; position:fixed; z-index:100000;">
+  <a class="boton-juego button" onClick="rungame()"  href="#main">Jugar</a><br>
+  <a class="boton-juego button" href="../index.html">Volver</a>
+</div>
+
 
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
@@ -24,3 +29,4 @@ function rungame(){
         <div class="title">One Touch Game</div>
       </div>
     </div>
+    </body>

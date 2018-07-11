@@ -3,6 +3,12 @@ header = document.getElementById("header");
 var ultimotop;
 ultimotop = 0;
 
+
+function rungame(){
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TEST4.json", {onProgress: UnityProgress});
+}
+
+
 function esconder(){
 var distancia_resultado;
 distancia_resultado = window.pageYOffset || document.documentElement.scrollTop;
@@ -16,7 +22,7 @@ header.style.backgroundColor = "#000";
 else{
 header.style.backgroundColor = "#fff";
 }
-}   
+}
 
 
 
@@ -69,7 +75,7 @@ window.onload = function() {
         $("#main").html("<img src='img/loading.svg' class='loader' border='0' />");
         // cargamos la pagina en el div capa
         $("#main").load('inicio.html');
-  
+
 
 
 };

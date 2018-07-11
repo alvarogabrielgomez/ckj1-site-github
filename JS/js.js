@@ -4,9 +4,6 @@ var ultimotop;
 ultimotop = 0;
 
 
-function rungame(){
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TEST4.json", {onProgress: UnityProgress});
-}
 
 
 function esconder(){

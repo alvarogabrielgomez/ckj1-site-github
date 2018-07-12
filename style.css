@@ -84,9 +84,11 @@ margin:-50px 0 0 -50px;
 }
 
 .loader{
-display: inline-block;
-margin: auto;
-padding:92px;
+	display: block;
+	margin: auto;
+	padding: 92px;
+	width: 119px;
+	height: 119px;
 }
 
 

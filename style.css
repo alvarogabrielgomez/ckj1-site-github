@@ -657,16 +657,19 @@ box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	width: 45%;
+	width: 50%;
 	min-width: 520px;
 }
 
 
 .mapa-caracas{
 	background-color: #f9f9f9;
-	width: 55%;
+	width: 50%;
 	min-width: 520px;
 	height: 590px;
+	background-image: url(img/map.PNG);
+	background-size: cover;
+	background-position: -82px -4px;
 }
 
 

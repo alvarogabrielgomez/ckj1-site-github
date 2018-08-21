@@ -102,3 +102,6 @@ $( "#flecha-portada" ).hover(
         // cargamos la pagina en el div capa
         $("#main").load(pagina);
     }
+
+
+

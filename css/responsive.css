@@ -10,6 +10,11 @@
     margin: -14px -24px !important;
     transform: scale(0.9)!important;
     }
+
+    .mapa-caracas{
+        width: 100%;
+    }
+
     .cajita-cajita{
         height: 452px;
         width: 31%;

@@ -35,16 +35,15 @@ h1{
 	color:#d8d8d8;
 	line-height: 1em;
 	text-align: center;
-	margin: 40px 0px -15px 0px !important;}
+	margin:0px !important;}
 
 h4{
 	font-size: 15px;
 	color:#898989;
-line-height: 2.2em;
+	line-height: 2.2em;
 	text-align: center;
 	font-weight: 100;
-margin-left: 1em;
-margin-right: 1em;
+	margin:0px;
 
 }
 
@@ -324,10 +323,11 @@ transition: transform .5s ease-in-out;
 
 .container-gal{
 width: 100%;
-position: relative;
-margin: auto;
-height:auto;
-display: flex;
+height:100%;
+display:flex;
+justify-content:center;
+flex-direction: column;
+
 }
 
 #ckj1-gal{
@@ -538,18 +538,18 @@ margin-left:54px;
 }
 
 #main{
-	margin:auto;
 	transition: all .2s ease-in-out;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .Inicio{
 		max-width: 1083px;
-		margin: auto;
 		transition: all .2s ease-in-out;
 		margin-bottom:70px;
-		display: block;
-
+		padding-top: 3em;
 }
 
 .Inicio	p {
@@ -563,12 +563,114 @@ padding: 0px 20px;
 
 }
 
-.formulario-contacto{
-	display: block;
-	overflow: hidden;
-	position: relative;
-	margin: auto;
+.info{
+	display: flex;
+	flex-wrap: nowrap;
 }
+
+.info input{
+	border: 2px solid rgba(0, 204, 255, 0.603);
+	border-radius: 4px;
+	padding: 13px;
+	margin: 0 5px 10px 0;
+	width: 204px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+	box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+}
+
+.info input:focus{
+	border: 2px solid rgb(0, 204, 255);
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+-moz-box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+}
+
+.comentarios textarea{
+	border: 2px solid rgba(0, 204, 255, 0.603);
+	border-radius: 4px;
+	padding: 13px;
+	margin: 0 5px 10px 0;
+	width: 443px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+	box-shadow: 0px 0px 4px 0px rgba(209,209,209,1);
+}
+.comentarios textarea:focus{
+	border: 2px solid rgb(0, 204, 255);
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+-moz-box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
+}
+
+.formulario {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 0px 25px;
+
+}
+
+
+
+.intereses{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.intereses label{
+	background: #cacaca!important;
+	padding: 4px 10px;
+	border-radius: 19px;
+	color: #3e3e3e;
+	border: 1px solid white;
+
+}
+
+
+
+
+.intereses label:hover{
+	background: #d3d3d3!important;
+	border: 1px solid rgb(12, 206, 255);
+
+}
+.intereses label:active{
+	background: #dfdfdf!important;
+	border: 1px solid rgb(12, 206, 255);
+
+}
+
+.intereses input{
+	
+	margin: 0 7px 7px 0;
+
+}
+
+
+.formulario-contenedor{
+	padding-top: 3em;
+	padding-bottom: 3em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	min-width: 520px;
+}
+
+
+.mapa-caracas{
+	background-color: #808080;
+	width: 50%;
+	min-width: 520px;
+	height: 590px;
+}
+
+
+
 
 .contenedor-cajita
 {
@@ -592,6 +694,7 @@ text-decoration: none; */
 }
 
 .cajita-cajita{
+	border-radius: 4px;
 -webkit-transition: all 0.6s ease;
  transition: all 0.6s ease;
 		height: 445px;
@@ -721,6 +824,7 @@ top: -22px;
 
 .contenedor-Design-and-Dev{
 	width:100%;
+	padding-top: 3em;
 }
 .boton-juego{
 	margin: 20px 11px;
@@ -752,6 +856,7 @@ top: -22px;
 }
 
 .caja01{
+	border-radius: 4px;
 	text-decoration: none;
 	-webkit-transition: all 0.6s ease;
 	 transition: all 0.6s ease;

@@ -44,6 +44,7 @@
 }
 #header{
 position:relative;
+
 }
 .cajita-cajita span.cajita-info{
 font-size: 14px;
@@ -65,6 +66,28 @@ font-size: 14px;
   box-sizing: border-box;
 
 }
+
+.formulario-contenedor{
+    width: 90%;
+    min-width:240px;
+}
+
+.comentarios textarea{
+    width: 90%;
+}
+
+.info{
+    flex-direction: column;
+}
+
+.info input{
+  width: auto; 
+}
+
+.mapa-caracas{
+    width: 100%;
+}
+
 .caja01{
   padding-right: 10px;
   margin:0px;

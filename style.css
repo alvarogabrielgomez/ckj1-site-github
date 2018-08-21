@@ -670,6 +670,9 @@ box-shadow: 1px 1px 4px 0px rgba(209,209,209,1);
 	background-image: url(img/map.PNG);
 	background-size: cover;
 	background-position: -82px -4px;
+	
+	image-rendering: optimizequality;
+
 }
 
 

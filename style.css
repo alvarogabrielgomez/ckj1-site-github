@@ -10,13 +10,11 @@ transition: transform .5s ease-in-out;
    }
 
 
-
 #ckj1{
 	color:#00FFFF;
 -webkit-text-fill-color: #00FFFF;
 -webkit-text-stroke: 1px #00FFFF;
 }
-
 ul{
 	list-style: none;
 	padding: 0;
@@ -90,7 +88,6 @@ margin:-50px 0 0 -50px;
 	height: 119px;
 }
 
-
 header{
 	border-top: 10px;
 	border-top-style: solid;
@@ -141,7 +138,6 @@ header nav ul li p {
 max-width: 1062px;
 margin-left: calc(50% - 531px)
 }
-
 
 
 #themoderfoquer{
@@ -196,7 +192,6 @@ padding-left: 10px;
 	display: inline-block;
 
 }
-
 
 #Menu ul li{
 	margin-left: 15px;
@@ -355,8 +350,6 @@ transition: all .2s ease-in-out;
 }
 
 
-
-
 .thumb01{
 	width: 371px;
 	height: 270px;
@@ -437,8 +430,6 @@ display: -moz-box;
 display: -webkit-filter;
 display: -webkit-box-flex;
 display:box;
-
-
 }
 footer {
 	bottom: 0;
@@ -480,6 +471,7 @@ font-size: 22px;
     -webkit-text-stroke: 1px #E6E6E6;
 letter-spacing: 0.05em;
 }
+
 .b1{
 display:inline-block;
 position: relative;
@@ -527,7 +519,6 @@ margin-left:54px;
 	font-weight:100;
 	margin-top: 39px;	font-family:sans-serif;
 }
-
 
 #tabla{
 
@@ -923,7 +914,6 @@ font-weight: bold;
 letter-spacing: 1px;
 color: #959595;
 }
-
 
 .caja01:hover{
 background-color: #e3e3e3;

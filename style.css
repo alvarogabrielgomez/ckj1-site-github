@@ -924,10 +924,21 @@ border-color:#00FFFF;
 
 .img-caja01{
 	background-color: #787878;
-	background-image: url(img/game.png);
+	background-image: url(img/game.jpg);
 	background-size: cover;
 	height: 107.4%;
 	width: 68%;
 	float: right;
 	margin: -10px;
+}
+
+.img-caja02{
+	background-color: #787878;
+	background-image: url(img/nox.jpg);
+	background-size: cover;
+	height: 107.4%;
+	width: 68%;
+	float: right;
+	margin: -10px;
+
 }
